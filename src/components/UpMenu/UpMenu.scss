@@ -1,0 +1,22 @@
+.menuContainer{
+    height : 3em;
+    display: block;
+    width: 100%;
+
+    height: 100%;
+    width: 5em;
+    float: left;
+    margin-right: 10em;
+
+    .element {
+        line-height: 48px;
+    }
+}
+.menuElement{
+    display: inline-block;
+    height: 100%;
+    margin: 0 1em;
+    .active {
+        color: red
+    }
+}

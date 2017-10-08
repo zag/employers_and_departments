@@ -1,0 +1,145 @@
+body {
+    background: white;
+    font-size: xx-large;
+    transition: all 0.5s ease;
+}
+
+a:link, a:visited, body {
+//    color: green;
+//   color: red;
+}
+
+.panels {
+    width:100%;
+}
+.panel {
+    float:left;
+    width:33%;
+}
+.clear {
+    clear:both;
+}
+.stateLine {
+    margin: 0 0;
+    font-size: medium;
+}
+
+.stateLine span, a {
+    padding:10px;
+}
+
+h2,h3,h1 {
+    margin: 0;
+}
+
+li {
+list-style-type: none;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+}
+
+.item { margin-top:0.5em}
+
+/*
+.ReactModal__Overlay {
+  -webkit-perspective: 600;
+  perspective: 600;
+  opacity: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.ReactModal__Overlay--after-open {
+  opacity: 1;
+  transition: opacity 150ms ease-out;
+}
+
+.ReactModal__Content {
+  -webkit-transform: scale(0.5) rotateX(-30deg);
+}
+
+.ReactModal__Content--after-open {
+  -webkit-transform: scale(1) rotateX(0deg);
+  transition: all 150ms ease-in;
+}
+
+.ReactModal__Overlay--before-close {
+  opacity: 0;
+}
+
+.ReactModal__Content--before-close {
+  -webkit-transform: scale(0.5) rotateX(30deg);
+  transition: all 150ms ease-in;
+}
+
+.ReactModal__Content.modal-dialog {
+  border: none;
+  background-color: transparent;
+}
+*/
+
+.ReactModal__Overlay {
+  -webkit-perspective: 600;
+  perspective: 600;
+  opacity: 0;
+}
+
+.ReactModal__Overlay--after-open {
+  opacity: 1;
+  transition: opacity 150ms ease-out;
+}
+
+.ReactModal__Content {
+  -webkit-transform: scale(0.5) rotateX(-30deg);
+}
+
+.ReactModal__Content--after-open {
+  -webkit-transform: scale(1) rotateX(0deg);
+  transition: all 150ms ease-in;
+  outline: none;
+}
+
+.ReactModal__Overlay--before-close {
+  opacity: 0;
+}
+
+.ReactModal__Content--before-close {
+  -webkit-transform: scale(0.5) rotateX(30deg);
+  transition: all 150ms ease-in;
+}
+
+/* Text area*/ 
+.textareawrapper {
+    float: left;
+    width:50%;
+    height:91%; 
+    background-color: #ffffff; 
+    box-shadow:0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.PreviewWrapper {
+    float: left;
+    overflow:scroll;
+    width:50%;
+    height:91%;
+    background-color: #ffffff; 
+    box-shadow:0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+#textareaCode {
+    background-color: #ffffff;
+    font-family: consolas,"courier new",monospace;
+    font-size:15px;
+    height:100%;
+    width:100%;
+    padding:8px;
+    resize: none;
+    border:none;
+}
+
+.clear { clear: both;}
+
+.previewBut { float:right;}
